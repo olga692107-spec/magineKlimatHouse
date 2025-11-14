@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КлиматХаус - Кондиционеры для вашего дома</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="qwen_css_20251114_magazine — копия.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">КлиматХаус</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#catalog">Каталог</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center ms-3">
+                    <div class="me-3">
+                        <i class="fas fa-phone-alt text-primary me-2"></i>
+                        <span class="phone-number">8 (800) 555-35-35</span>
+                    </div>
+                    <button class="btn btn-outline-primary position-relative">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            2
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container hero-content">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Идеальный климат в вашем доме</h1>
+                    <p class="lead mb-4">Широкий выбор кондиционеров от ведущих мировых производителей. Бесплатная доставка и профессиональная установка!</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#catalog" class="btn btn-light btn-lg px-4 py-3 fw-bold">Каталог товаров</a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg px-4 py-3 fw-bold">Консультация</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <div class="text-center">
+                        <img src="https://placehold.co/500x400/e9ecef/6c757d?text=AC+Unit" alt="Кондиционер" class="img-fluid rounded-3 shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="py-5 bg-light" id="categories">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-6 fw-bold">Категории кондиционеров</h2>
+                <p class="text-muted">Выберите подходящий тип для вашего помещения</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="category-item">
+                        <div class="category-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h5>Сплит-системы</h5>
+                        <p class="text-muted small">Для жилых помещений</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="category-item">
+                        <div class="category-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h5>Кассетные</h5>
+                        <p class="text-muted small">Для офисов и магазинов</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="category-item">
+                        <div class="category-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h5>Мобильные</h5>
+                        <p class="text-muted small">Портативные решения</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="category-item">
+                        <div class="category-icon">
+                            <i class="fas fa-window-maximize"></i>
+                        </div>
+                        <h5>Оконные</h5>
+                        <p class="text-muted small">Классическое решение</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="py-5" id="catalog">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-6 fw-bold">Популярные кондиционеры</h2>
+                <p class="text-muted">Бестселлеры этого месяца</p>
+            </div>
+            
+            <div class="product-filters">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <div class="input-group search-box">
+                            <span class="input-group-text"><i class="fas fa-search"></i></span>
+                            <input type="text" class="form-control" placeholder="Поиск по названию или модели...">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#filterModal">
+                            <i class="fas fa-filter me-2"></i>Фильтры
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Product 1 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card product-card">
+                        <div class="position-relative">
+                            <img src="img/Daikin Emura FTXM" class="product-image" alt="Сплит-система" width="200" height="300">
+                            <span class="badge-sale">-15%</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Daikin Emura FTXM</h5>
+                            <p class="card-text text-muted small">Сплит-система инверторная, 2.5 кВт, белый</p>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span class="text-muted ms-1">4.5</span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price">32 900 ₽</div>
+                                <button class="btn btn-primary btn-sm">
+                                    <i class="fas fa-shopping-cart me-1"></i> В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card product-card">
+                        <div class="position-relative">
+                            <img src="img/Ballu BMH-12H.webp" class="product-image" alt="Мобильный кондиционер">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Ballu BMH-12H</h5>
+                            <p class="card-text text-muted small">Мобильный кондиционер, 3.5 кВт, серебристый</p>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="text-muted ms-1">4.0</span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price">24 500 ₽</div>
+                                <button class="btn btn-primary btn-sm">
+                                    <i class="fas fa-shopping-cart me-1"></i> В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card product-card">
+                        <div class="position-relative">
+                            <img src="img/Mitsubishi Electric SEZ.jpg" class="product-image" alt="Кассетный кондиционер">
+                            <span class="badge-sale">Хит</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Mitsubishi Electric SEZ</h5>
+                            <p class="card-text text-muted small">Кассетная сплит-система, 5.6 кВт</p>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="text-muted ms-1">5.0</span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price">58 700 ₽</div>
+                                <button class="btn btn-primary btn-sm">
+                                    <i class="fas fa-shopping-cart me-1"></i> В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card product-card">
+                        <div class="position-relative">
+                            <img src="img/Electrolux EACM-07.jpg" class="product-image" alt="Оконный кондиционер">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Electrolux EACM-07</h5>
+                            <p class="card-text text-muted small">Оконный кондиционер, 2.1 кВт</p>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="text-muted ms-1">3.8</span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price">18 300 ₽</div>
+                                <button class="btn btn-primary btn-sm">
+                                    <i class="fas fa-shopping-cart me-1"></i> В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-outline-primary px-4 py-2">
+                    Смотреть весь каталог <i class="fas fa-chevron-right ms-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="py-5 bg-light" id="services">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-6 fw-bold">Наши услуги</h2>
+                <p class="text-muted">Полный комплекс услуг по климатическому оборудованию</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h4>Профессиональная установка</h4>
+                        <p class="text-muted">Сертифицированные специалисты с гарантией на работы</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                        <h4>Бесплатная доставка</h4>
+                        <p class="text-muted">По всему городу при заказе от 20 000 ₽</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h4>Техническая поддержка</h4>
+                        <p class="text-muted">Консультации и помощь 24/7 по всем вопросам</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-5" id="testimonials">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-6 fw-bold">Отзывы клиентов</h2>
+                <p class="text-muted">Что говорят о нас наши покупатели</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="https://placehold.co/60x60/e9ecef/6c757d?text=AV" class="rounded-circle me-3" alt="Анна В.">
+                            <div>
+                                <h5>Анна В.</h5>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-muted">"Отличный магазин! Купила сплит-систему Daikin, установили быстро и аккуратно. Очень доволена покупкой и обслуживанием."</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="https://placehold.co/60x60/e9ecef/6c757d?text=MS" class="rounded-circle me-3" alt="Михаил С.">
+                            <div>
+                                <h5>Михаил С.</h5>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-muted">"Заказывал установку кондиционера в офис. Все сделали профессионально, в срок и с гарантией. Рекомендую!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="py-5 bg-primary text-white" id="contact">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="display-6 fw-bold mb-3">Остались вопросы?</h2>
+                    <p class="lead mb-4">Свяжитесь с нами, и наши специалисты помогут подобрать идеальное решение для вашего помещения</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-phone-alt fa-2x me-3"></i>
+                        <div>
+                            <div class="h5 mb-0">8 (800) 555-35-35</div>
+                            <div>Бесплатно по России</div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-clock fa-2x me-3"></i>
+                        <div>
+                            <div class="h5 mb-0">Ежедневно с 9:00 до 21:00</div>
+                            <div>Без выходных</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-white p-4 rounded-3 text-dark">
+                        <h4 class="mb-4">Заказать обратный звонок</h4>
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Ваше имя" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" placeholder="Телефон" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="3" placeholder="Сообщение"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Отправить заявку</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h4 class="fw-bold mb-3">КлиматХаус</h4>
+                    <p class="text-muted">Ваш надежный партнер в создании комфортного климата в доме и офисе. Только проверенное оборудование и профессиональный монтаж.</p>
+                    <div class="d-flex gap-3 mt-3">
+                        <a href="#" class="text-white"><i class="fab fa-vk fa-2x"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-telegram fa-2x"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-whatsapp fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h5 class="fw-bold mb-3">Каталог</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="footer-link">Сплит-системы</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Мобильные</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Кассетные</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Оконные</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Мульти-сплит</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h5 class="fw-bold mb-3">Услуги</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="footer-link">Установка</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Сервисное обслуживание</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Ремонт</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Дизайн-проекты</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Гарантия</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h5 class="fw-bold mb-3">Контакты</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> г. Москва, ул. Климатная, д. 15</li>
+                        <li class="mb-2"><i class="fas fa-phone me-2"></i> 8 (800) 555-35-35</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i> info@klimathouse.ru</li>
+                        <li class="mb-2"><i class="fas fa-clock me-2"></i> Ежедневно с 9:00 до 21:00</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-secondary">
+            <div class="text-center text-muted">
+                <p class="mb-0">&copy; 2025 КлиматХаус. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Filter Modal -->
+    <div class="modal fade" id="filterModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Фильтры</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>Тип кондиционера</h6>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="split">
+                                <label class="form-check-label" for="split">Сплит-системы</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="mobile">
+                                <label class="form-check-label" for="mobile">Мобильные</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="cassette">
+                                <label class="form-check-label" for="cassette">Кассетные</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="window">
+                                <label class="form-check-label" for="window">Оконные</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Цена</h6>
+                            <div class="mb-3">
+                                <label class="form-label">От</label>
+                                <input type="number" class="form-control" placeholder="10000">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">До</label>
+                                <input type="number" class="form-control" placeholder="100000">
+                            </div>
+                            <h6>Производитель</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="daikin">
+                                <label class="form-check-label" for="daikin">Daikin</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="mitsubishi">
+                                <label class="form-check-label" for="mitsubishi">Mitsubishi</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="ballu">
+                                <label class="form-check-label" for="ballu">Ballu</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Отмена</button>
+                    <button type="button" class="btn btn-primary">Применить фильтры</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+```
+
